@@ -11,3 +11,6 @@ Your project will run on http://localhost:3000/
 
 #### Database Used:
 To store the campaign data, firebase is used.
+
+## App is hosted on the below-mentioned URL:
+https://campaigncreator-534d6.web.app/
