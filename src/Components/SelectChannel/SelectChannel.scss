@@ -1,0 +1,25 @@
+.media-type {
+  width: 100px;
+  height: 110px;
+  border: 1px solid #000000;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 2px;
+}
+
+.icon {
+  padding-top: 10px;
+}
+
+.active {
+  background-color: #468ccb;
+  height: 100%;
+  color: #ffffff
+}
+
+.coming-soon {
+  background-color: #eeeeee;
+  cursor: not-allowed;
+  height: 100%;
+  padding-top: 12px;
+}
