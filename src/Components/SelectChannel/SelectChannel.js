@@ -75,7 +75,7 @@ class SelectChannel extends Component {
 		MEDIA_TYPE.map((type, index) => {
 			mediaTypes.push(
 				<button 
-					className={`btn btn-primary-outline media-type mr-4`}
+					className={`btn btn-primary-outline media-type mr-4 ${type.coming_soon ? 'coming-soon' : ''}`}
 					onClick={()=>this.setActiveMedia(type.media_name)}
 					disabled={type.coming_soon ? true : false} 
 					key={index}
