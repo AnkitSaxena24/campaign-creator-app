@@ -21,7 +21,7 @@ export default function campaignSteps(props) {
 		return (
 			<small 
 				key={index} 
-				className={`${props.curStep === step.tab ? 'text-success' : ''}text-danger font-weight-bold`}
+				className={`${props.curStep === step.tab ? 'text-success' : 'text-danger'} font-weight-bold`}
 			>
 				{step.title}
 			</small>
