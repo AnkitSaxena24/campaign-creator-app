@@ -2,3 +2,18 @@
   background-color: #CFCFCF;
   height: 100vh;
 }
+
+.main-screen {
+  position: fixed;
+  display: block;
+  height: 80%;
+  width: 45%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  top: 50%;
+	left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 4px 5px #cccccc;
+  font-family: 'Roboto', sans-serif;
+  overflow-y: auto;
+}
